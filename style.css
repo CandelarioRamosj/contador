@@ -1,7 +1,55 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: gainsboro;
+}
+
 main {
-    min-height: 80vh;
+    margin-top: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+h1 {
+    font-size: 7vh;
+}
+
+#contador {
+    margin-top: 5vh;
+    font-size: 7vh;
+}
+
+div {
+    margin-top: 10vh;
+}
+
+.button-inicio {
+    width: 15vh;
+    font-size: 3vh;
+}
+
+button {
+    width: 20vh;
+    margin-left: 5vh;
+    height: 6vh;
+    font-size: 2.5vh;
+    font-weight: bold;
+    border: none;
+    background-color: turquoise;
+    border-radius: 5px;
+    box-shadow: 0.8vh 0.5vh 5px rgb(26, 90, 84);
+}
+
+button:hover {
+    background-color: rgb(57, 194, 180);
+}
+
+button:active {
+    background-color: rgb(51, 180, 167);
 }
