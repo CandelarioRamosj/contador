@@ -31,6 +31,7 @@ div {
 
 .button-inicio {
     width: 15vh;
+    height: 6vh;
     font-size: 3vh;
 }
 
@@ -52,4 +53,25 @@ button:hover {
 
 button:active {
     background-color: rgb(51, 180, 167);
+}
+
+@media (max-width: 600px){
+
+    button {
+        width: 18vh;
+        height: 5vh;
+        margin-left: 2vh;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    button {
+        width: 12vh;
+        height: 5vh;
+        margin-left: 2vh;
+        font-size: 1.5vh;
+    }
+
 }
